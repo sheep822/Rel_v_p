@@ -48,7 +48,7 @@ public class RetrofitUtils implements NetWorkInterface {
     @Override
     public <B> void get(String url, RelCallBack<B> callBack) {
         apiService.get(url)
-                .observeOn(Schedulers.io())
+                .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseBody>() {
                     @Override
