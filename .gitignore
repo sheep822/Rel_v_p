@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+/build
+=======
+=======
+>>>>>>> 618c1cc (newnew)
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+<<<<<<< HEAD
+>>>>>>> 63b1f64ca59b20195aa52db5cb4dba7b6edcf8e1
+=======
+>>>>>>> 618c1cc (newnew)

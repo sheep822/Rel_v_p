@@ -1,0 +1,3 @@
+include ':two'
+include ':app'
+rootProject.name = "Rel_v_p"
